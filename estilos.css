@@ -1,0 +1,88 @@
+body {
+     background-image: url(backamor.jpg);
+     background-color: blanchedalmond;
+}
+
+div {
+     width: 100%;
+     margin: 0 auto;
+}
+
+#audio {
+          width: 45%;   
+          float: left;
+}
+audio {
+     float: left;
+     width: 45%;
+}
+#imgTitulo {
+     width: 50%;
+     float: right;
+}
+#imgTitulo img {
+     width: 80%;
+     text-align: center;
+}
+h1 {
+     color: #FFF;    
+}
+h2 {
+   color: #FFF;
+}
+
+#mensagem {
+     float: left;
+     width: 35%;
+     text-align: justify;
+}
+
+.clear {
+     clear: both;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1000px) {
+    div {
+    width: 100%;
+    margin: 0 auto;
+}
+ #imgTitulo {
+     width: 100%;
+     float: none;
+     margin-bottom: 1%;
+}
+ img {
+      width: 100%;
+      height: 100%; 
+      float: none;
+}
+     
+#imgTitulo img {
+     width: 100%;
+     text-align: center;
+
+}
+     h1 {
+          font-size: 150%;   
+          margin-right: 0;
+          margin-top: 0;
+          text-align: center;
+          word-break: initial;
+}
+     #audio {
+          width: 100%;
+          float: none;
+          margin-bottom: 1%;
+}
+     
+     audio {
+          width: 100%;  
+          float: none;
+          
+     }
+     
+    #mensagem {
+     float: none;
+     width: 100%;
+}
+}
